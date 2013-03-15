@@ -1,8 +1,8 @@
 #!/bin/bash
 
-PYTHON="/usr/bin/env python26"
-HADOOP_CONF=/etc/hadoop-0.20/conf
-HADOOP_HOME=/usr/lib/hadoop-0.20
+PYTHON="/usr/bin/env python"
+HADOOP_CONF=/home/liyinhgqw/hadoop-1.1.0/conf
+HADOOP_HOME=/home/liyinhgqw/hadoop-1.1.0
 
 export CLASSPATH=${HADOOP_CONF}:$(find ${HADOOP_HOME} -name *.jar | sort | tr '\n' ':')
 

@@ -5,9 +5,9 @@ from datetime import datetime
 from hdfs.hfilesystem import Hfilesystem
 from hdfs.hfile import Hfile
 
-hostname = 'hadoop.twitter.com'
+hostname = 'speedy'
 port = 8020
-path = '/user/travis/test_%s' % datetime.now().strftime('%Y%m%dT%H%M%SZ')
+path = 'test_%s' % datetime.now().strftime('%Y%m%dT%H%M%SZ')
 data = 'read write test'
 
 
