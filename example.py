@@ -1,4 +1,4 @@
-#!/usr/bin/env python26
+#!/usr/bin/env python
 
 """Python HDFS use examples.
 
@@ -8,9 +8,9 @@ HDFS files from your programs.
 
 from hdfs.hfile import Hfile
 
-hostname = 'hadoop.twitter.com'
+hostname = 'speedy'
 port = 8020
-hdfs_path = '/user/travis/example'
+hdfs_path = 'example'
 local_path = '/etc/motd'
 
 # Let's open local and HDFS files.

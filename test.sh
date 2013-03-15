@@ -8,6 +8,8 @@ export CLASSPATH=${HADOOP_CONF}:$(find ${HADOOP_HOME} -name *.jar | sort | tr '\
 
 export PYTHONPATH=hdfs:${PYTHONPATH}
 
-$PYTHON hdfs/hfilesystem_test.py
-$PYTHON hdfs/hfile_test.py
+#$PYTHON hdfs/hfilesystem_test.py
+#$PYTHON hdfs/hfile_test.py
+
+$PYTHON example.py
 
